@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Technologies from "./Technologies";
-
+import Footer from "./Footer";
 function App() {
   return (
     <div className="min-h-screen bg-[#08070b]">
@@ -43,7 +43,7 @@ function App() {
             </h2>
           </div>
         </section>
-
+        <Footer />
       </main>
     </div>
   );
